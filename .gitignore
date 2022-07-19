@@ -17,6 +17,7 @@ icon.png
 config/splash.properties
 config/invTweaks.cfg
 config/jei/
+config/gregtech/terminal/ore_prospector
 coremods/
 config/AppliedEnergistics2
 local/client/
