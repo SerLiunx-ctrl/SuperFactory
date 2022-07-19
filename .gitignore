@@ -18,3 +18,5 @@ config/splash.properties
 config/invTweaks.cfg
 config/jei/
 coremods/
+config/AppliedEnergistics2
+local/client/
