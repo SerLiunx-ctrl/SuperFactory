@@ -5,9 +5,16 @@ journeymap/
 saves/
 logs/
 crash-reports/
+config/jei/
 
 #忽略的文件
 usercache.json
 usernamecache.json
+options.txt
+optionsof.txt
 *.log
 icon.png
+config/splash.properties
+config/invTweaks.cfg
+config/jei/
+coremods/
