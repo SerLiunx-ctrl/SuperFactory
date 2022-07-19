@@ -1,0 +1,10 @@
+{
+	title: "初识新世界",
+	icon: "minecraft:sapling",
+	description: [
+		"第一次来到这个世界, 你需要学会一些基础知识."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle"
+}
