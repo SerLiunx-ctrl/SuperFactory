@@ -1,0 +1,14 @@
+#忽略的文件夹
+.mixin.out/
+mods/
+journeymap/
+saves/
+resourcepacks/
+logs/
+crash-reports/
+
+#忽略的文件
+usercache.json
+usernamecache.json
+*.log
+icon.png
