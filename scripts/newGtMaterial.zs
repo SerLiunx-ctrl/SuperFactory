@@ -1,16 +1,20 @@
-//此文件为注册新GT材料和元素等(不包括合成表)，请勿随意修改!
+//注册新GT材料和元素等(不包括合成表)，请勿随意修改!
+//修改原有材料的属性
 #loader gregtech
-
 import mods.gregtech.material.MaterialBuilder;
 import mods.gregtech.material.Material;
 import mods.gregtech.material.Elements;
 
-//元素添加
-
+//元素添加=============================
 //无尽
 var If = Elements.add(123, 59, -1, null, "Infinity", "If", false);
+//终极
 var Um = Elements.add(110, 87, -1, null, "Ultimate", "Um", false);
+//超时空
 var St = Elements.add(150, 77, -1, null, "Spacetime", "St", false);
+
+//修改: 中子
+var changedNeutronium = <material:neutronium>;
 
 //保留材料
 var specialMaterialLeft = MaterialBuilder(32003, "special_material_left") // name

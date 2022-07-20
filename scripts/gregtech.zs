@@ -5,6 +5,9 @@ val mixer as RecipeMap = <recipemap:mixer>;
 val extractor as RecipeMap = <recipemap:extractor>;
 val fusion_reactor as RecipeMap = <recipemap:fusion_reactor>;
 
+//Tooltips
+<gregtech:meta_item_1:640>.addTooltip(format.blue("IV-等级"));
+
 //搅拌机: 磁钢粉
 mixer.recipeBuilder()
     .inputs(<ore:dustSteel> * 1, <ore:dustCoal> * 1)
