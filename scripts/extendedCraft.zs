@@ -33,6 +33,9 @@ recipes.remove(<extendedcrafting:table_advanced>);
 recipes.remove(<extendedcrafting:table_elite>);
 //移除: 终极工作台
 recipes.remove(<extendedcrafting:table_ultimate>);
+//移除: 量子压缩机
+recipes.remove(<extendedcrafting:compressor>);
+
 
 //高级工作台
 recipes.addShaped(<extendedcrafting:table_advanced>, [
@@ -59,4 +62,17 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <extendedcrafting:table_ultimat
 	[<ore:plateCobalt>, <ore:plateTungstenSteel>, <gregtech:meta_item_1:206>, <gregtech:meta_item_1:131>, <gregtech:meta_item_1:206>, <ore:plateTungstenSteel>, <ore:plateCobalt>], 
 	[<ore:plateCobalt>, <gregtech:meta_item_1:176>, <ore:plateTungstenSteel>, <gregtech:meta_item_1:191>, <ore:plateTungstenSteel>, <gregtech:meta_item_1:176>, <ore:plateCobalt>], 
 	[<ore:plateCobalt>, <ore:plateCobalt>, <ore:plateCobalt>, <ore:wireGtSingleUraniumRhodiumDinaquadide>, <ore:plateCobalt>, <ore:plateCobalt>, <ore:plateCobalt>]
+]);
+
+//量子压缩机
+mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:compressor>, [
+	[<tconstruct:large_plate>.withTag({Material: "neutronium"}), <tconstruct:large_plate>.withTag({Material: "neutronium"}), null, <appliedenergistics2:material:47>, <ore:plateNeutronium>, <appliedenergistics2:material:47>, null, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <tconstruct:large_plate>.withTag({Material: "neutronium"})], 
+	[<tconstruct:large_plate>.withTag({Material: "neutronium"}), null, null, null, <ore:plateNeutronium>, null, null, null, <tconstruct:large_plate>.withTag({Material: "neutronium"})], 
+	[null, null, <gregtech:meta_item_1:179>, <gregtech:meta_item_1:164>, <ore:plateNeutronium>, <gregtech:meta_item_1:164>, <gregtech:meta_item_1:179>, null, null], 
+	[<appliedenergistics2:material:47>, null, <gregtech:meta_item_1:164>, <ore:wireGtSingleEnrichedNaquadahTriniumEuropiumDuranide>, <ore:circuitUv>, <ore:wireGtSingleEnrichedNaquadahTriniumEuropiumDuranide>, <gregtech:meta_item_1:164>, null, <appliedenergistics2:material:47>], 
+	[<ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:circuitUv>, <gregtech:machine:237>, <ore:circuitUv>, <ore:plateNeutronium>, <ore:plateNeutronium>, <ore:plateNeutronium>], 
+	[<appliedenergistics2:material:47>, null, <gregtech:meta_item_1:164>, <ore:wireGtSingleEnrichedNaquadahTriniumEuropiumDuranide>, <ore:circuitUv>, <ore:wireGtSingleEnrichedNaquadahTriniumEuropiumDuranide>, <gregtech:meta_item_1:164>, null, <appliedenergistics2:material:47>], 
+	[null, null, <gregtech:meta_item_1:179>, <gregtech:meta_item_1:164>, <ore:plateNeutronium>, <gregtech:meta_item_1:164>, <gregtech:meta_item_1:179>, null, null], 
+	[<tconstruct:large_plate>.withTag({Material: "neutronium"}), null, null, null, <ore:plateNeutronium>, null, null, null, <tconstruct:large_plate>.withTag({Material: "neutronium"})], 
+	[<tconstruct:large_plate>.withTag({Material: "neutronium"}), <tconstruct:large_plate>.withTag({Material: "neutronium"}), null, <appliedenergistics2:material:47>, <ore:plateNeutronium>, <appliedenergistics2:material:47>, null, <tconstruct:large_plate>.withTag({Material: "neutronium"}), <tconstruct:large_plate>.withTag({Material: "neutronium"})]
 ]);

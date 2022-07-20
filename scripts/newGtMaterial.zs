@@ -96,3 +96,13 @@ var GtSpaceTimeIngot = MaterialBuilder(32007, "space_time")
     .fluidPipeProperties(10000000, 100000, true) //管道
     .element("Spacetime")
     .build(); //构建
+
+//磷钇矿
+var GtXenotime = MaterialBuilder(32008, "xenotime")
+    .color(0x999900)
+    .ore()
+    .gem()
+    .iconSet("DIAMOND")
+    .components([<material:yttrium> * 1, <material:phosphorus> * 1, <material:oxygen> * 4])
+    .build();
+
