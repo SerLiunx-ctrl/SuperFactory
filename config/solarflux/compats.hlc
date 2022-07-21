@@ -8,6 +8,9 @@
   # Should Solar Flux Reborn enable compat for 'Baubles'? (Default: true)
   +B:baubles=true
 
+  # Should Solar Flux Reborn enable compat for 'Draconic Evolution'? (Default: true)
+  +B:draconicevolution=true
+
 }
 
 

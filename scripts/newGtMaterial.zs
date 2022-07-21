@@ -106,3 +106,32 @@ var GtXenotime = MaterialBuilder(32008, "xenotime")
     .components([<material:yttrium> * 1, <material:phosphorus> * 1, <material:oxygen> * 4])
     .build();
 
+//GT龙锭
+var Gtdraconium = MaterialBuilder(32009, "draconium")
+    .fluid("fluid", true)
+    .ingot(6) //锭粉材料
+    .color(0xCC33FF)
+    .iconSet("shiny") //材质集设置为 shiny
+    .blastTemp(5401, "HIGH", 7100, 2000) //高炉温度
+    .toolStats(10, 8, 1024, 23) //工具
+    .flags(["generate_plate", "generate_foil", "generate_ring", "generate_rod", "generate_gear", 
+    "generate_bolt_screw", "generate_spring", "generate_spring_small", "generate_rotor", "generate_long_rod", "generate_frame"])
+    .ore(1, 1, false) //矿石
+    .cableProperties(8388608, 8, 4, false) //线缆
+    .fluidPipeProperties(4956, 400, false) //管道
+    .build(); //构建
+
+//GT觉醒龙锭
+var GtdraconiumAwakened = MaterialBuilder(32010, "draconium_awakened")
+    .fluid("fluid", true)
+    .ingot(12) //锭粉材料
+    .color(0xFF6600)
+    .iconSet("shiny") //材质集设置为 shiny
+    .blastTemp(9001, "HIGHER", 130000, 1000) //高炉温度
+    .toolStats(15, 20, 3690, 50) //工具
+    .flags(["generate_plate", "generate_foil", "generate_ring", "generate_rod", "generate_gear", 
+    "generate_bolt_screw", "generate_spring", "generate_spring_small", "generate_rotor", "generate_long_rod", "generate_frame"])
+    .ore(1, 1, false) //矿石
+    .cableProperties(134217728, 10, 2, false) //线缆
+    .fluidPipeProperties(12000, 600, true) //管道
+    .build(); //构建

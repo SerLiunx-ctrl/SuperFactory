@@ -20,6 +20,17 @@ assembly_line.recipeBuilder()
     .outputs(<gregtech:machine:32000>)
     .buildAndRegister();
 
+//装配线: 高级虚空采矿场
+assembly_line.recipeBuilder()
+    .inputs(<gregtech:machine:993> * 1, <gregtech:machine:32000> * 1, <ore:circuitUv> * 8,
+            <gregtech:meta_item_1:134> * 8, <gregtech:meta_item_1:149> * 8, <gregtech:meta_item_1:164>,
+            <gregtech:meta_item_1:209> * 8, <gregtech:meta_item_1:224> * 8, <ore:wireGtHexEnrichedNaquadahTriniumEuropiumDuranide>)
+    .fluidInputs(<liquid:soldering_alloy> * 2880, <liquid:polybenzimidazole> * 2880, <liquid:argon> * 40000)
+    .duration(24000)
+    .EUt(524000)
+    .outputs(<gregtech:machine:32001>)
+    .buildAndRegister();
+
 
 //搅拌机: 磁钢粉
 mixer.recipeBuilder()

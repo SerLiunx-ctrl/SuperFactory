@@ -1,5 +1,3 @@
-//隐藏原版无尽锭
-mods.jei.JEI.hide(<avaritia:resource:6>);
 
 //物品Tooltip
 <avaritia:infinity_helmet>.addTooltip(format.red("已禁用! 请使用匠魂装备来代替"));
