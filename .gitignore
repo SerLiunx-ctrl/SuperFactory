@@ -19,5 +19,9 @@ config/invTweaks.cfg
 config/jei/
 config/gregtech/terminal/ore_prospector
 coremods/
-config/AppliedEnergistics2
+config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/extracells.cfg
+config/AppliedEnergistics2/Facades.cfg
+config/AppliedEnergistics2/items.csv
+config/AppliedEnergistics2/VersionChecker.cfg
 local/client/
