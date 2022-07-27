@@ -301,3 +301,15 @@ void_miner.recipeMap.recipeBuilder()
             <gregtech:ore_xenotime_0> * 64)
     .buildAndRegister();
 
+//产物1: 高级虚空采矿场
+void_miner_advanced.recipeMap.recipeBuilder()
+    .duration(600)
+    .EUt(524000)
+    .circuit(1)
+    .fluidInputs(<liquid:plasma.helium> * 10)
+    .outputs(<avaritia:resource:5> * 10,
+             <minecraft:nether_star> * 3,
+             <avaritia:resource:3> *32
+            )
+    .chancedOutput(<gregtech:meta_dust_tiny:32005>, 100, 50)
+    .buildAndRegister();

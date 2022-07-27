@@ -5,9 +5,11 @@ val mixer as RecipeMap = <recipemap:mixer>;
 val extractor as RecipeMap = <recipemap:extractor>;
 val fusion_reactor as RecipeMap = <recipemap:fusion_reactor>;
 val assembly_line as RecipeMap = <recipemap:assembly_line>;
+val rock_breaker as RecipeMap = <recipemap:rock_breaker>;
 
 //Tooltips
 <gregtech:meta_item_1:640>.addTooltip(format.blue("IV-等级"));
+
 
 //装配线: 初级虚空采矿场
 assembly_line.recipeBuilder()
