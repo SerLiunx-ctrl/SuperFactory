@@ -166,6 +166,7 @@
   "slimey_green_armor",
   "tconevo.deadly_precision",
   "tconevo.condensing1",
+  "sassy",
   "splintering",
   "aquaspeed_armor",
   "tconevo.aura_affinity1_armor",

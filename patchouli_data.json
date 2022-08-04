@@ -4,10 +4,12 @@
   "bookData": {
     "deepmoblearning:book": {
       "viewedEntries": [
-        "deepmoblearning:0_introduction/2_data_models"
+        "deepmoblearning:0_introduction/2_data_models",
+        "deepmoblearning:0_introduction/0_introduction"
       ],
       "bookmarks": [],
       "history": [
+        "deepmoblearning:0_introduction/0_introduction",
         "deepmoblearning:0_introduction/2_data_models"
       ],
       "completedManualQuests": []

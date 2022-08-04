@@ -10,10 +10,13 @@ val chemical_reactor as RecipeMap = <recipemap:chemical_reactor>;
 //隐藏感应炉, 红石炉，精炼机
 mods.jei.JEI.removeAndHide(<thermalexpansion:machine:3>);
 mods.jei.JEI.removeAndHide(<thermalexpansion:machine>);
+recipes.remove(<thermalexpansion:machine>);
+recipes.remove(<thermalexpansion:machine:3>);
+
 
 //tooltip
-<thermalexpansion:machine:3>.addTooltip(format.red("已禁用! 请使用匠魂装备来代替"));
-<thermalexpansion:machine>.addTooltip(format.red("已禁用! 请使用匠魂装备来代替"));
+<thermalexpansion:machine:3>.addTooltip(format.red("已禁用"));
+<thermalexpansion:machine>.addTooltip(format.red("已禁用"));
 
 //替换机器框架
 recipes.replaceAllOccurences(<thermalexpansion:frame>, <gregtech:machine:986>);
